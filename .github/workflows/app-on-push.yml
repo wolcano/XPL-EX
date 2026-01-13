@@ -8,6 +8,7 @@ on:
       - 'app/.gitignore'
       - '*.md'
       - 'LICENSE'
+  workflow_dispatch:
 
 
 env:
