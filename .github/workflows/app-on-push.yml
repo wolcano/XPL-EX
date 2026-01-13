@@ -1,13 +1,13 @@
-name: Build APK on Push
+name: Build APK
 
 on:
-  push:
-    branches: [ "new" ]
-    paths-ignore:
-      - '.gitignore'
-      - 'app/.gitignore'
-      - '*.md'
-      - 'LICENSE'
+  #push:
+  #  branches: [ "new" ]
+  #  paths-ignore:
+  #    - '.gitignore'
+  #    - 'app/.gitignore'
+  #    - '*.md'
+  #    - 'LICENSE'
   workflow_dispatch:
 
 jobs:
